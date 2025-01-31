@@ -16,3 +16,5 @@
 ## 实际使用范例
 ![image](https://github.com/user-attachments/assets/c852da90-db08-47e5-b241-64ff32ac5cde)
 - **设置每40个全角字符时进行换行，可以看到\N[1]这样的特殊符号 未被计入换行**
+## 使用方式
+1. 在patterns内定义你的项目的特殊符号（只需要完整符号的一部分即可 如 \N[1],定义成N[,），在end_symbols定义特殊符号的结束符，例如\N[1]，是']'
